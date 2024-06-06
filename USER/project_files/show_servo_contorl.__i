@@ -1,0 +1,7 @@
+--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\CORE -I ..\..\FWLIB\inc -I ..\..\GEC_LIB -I ..\..\SYSTEM -I ..\src --GNU
+-I.\RTE\_GEC_F103
+-ID:\APP\Users\lizhe\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-ID:\APP\ARM\CMSIS\Include
+-ID:\APP\Users\lizhe\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.2.0
+-D__UVISION_VERSION="529" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o .\show_servo_contorl.o --omf_browse .\show_servo_contorl.crf --depend .\show_servo_contorl.d "..\src\show_servo_contorl.c"
